@@ -9,7 +9,7 @@ const HeroSection = () => {
                     <h1 className="text-6xl font-semibold leading-[1.2]">
                         I'm Ankit, a Full-Stack Web Developer.
                     </h1>
-                    <p className="text-xl max-w-[90%] text-black/60">
+                    <p className="text-xl max-w-[65ch] text-black/60">
                         Full-Stack Developer specializing in building responsive,
                         high-performance web apps using React.js, Next.js, and Node.js.
                         Passionate about clean architecture, intuitive UI, and seamless user
@@ -28,11 +28,11 @@ const HeroSection = () => {
                     </button>
                 </div>
                 <div className="social-proof -mt-3">
-                    <p className="text-xl">
+                    <p className="text-lg">
                         Contributed to production-grade apps serving <span>10,000+</span>{" "}
                         users
                     </p>
-                    <p className="text-xl">
+                    <p className="text-lg">
                         Deployed 5+ full-stack projects with real users on Vercel & Render.
                     </p>
                 </div>

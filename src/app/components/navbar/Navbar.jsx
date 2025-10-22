@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="p-2 pt-4 w-[100vw]">
       <div
-        className="flex gap-60 py-4 w-fit rounded-sm mx-auto px-10"
+        className="flex gap-60 py-4 w-fit rounded-sm mx-auto px-10 shadow-sm"
       >
         <div>
           <h2 className="text-2xl font-bold">Ankit Kumar</h2>
