@@ -29,15 +29,16 @@ const ProjectsSection = () => {
               <h3 className="text-2xl font-semibold">
                 {project.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-black/80 leading-relaxed">
                 {project.description}
               </p>
 
-              <div className="flex flex-wrap gap-2 mt-2">
+              <div className="flex items-center flex-wrap gap-3 mt-2">
+                <span className="text-sm font-bold">Tech Used :</span>
                 {project.techStack.map((tech, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 rounded-full text-sm font-medium"
+                    className="text-sm text-black/80 font-medium"
                   >
                     {tech}
                   </span>
